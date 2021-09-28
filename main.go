@@ -9,12 +9,25 @@ func main() {
 
 	// fmt.Println("Hello World")
 
-	alas := 10
-	tinggi := 15
-	L := (alas * tinggi) / 2
-	fmt.Println("Luas segitiga =", L)
+	// alas := 10
+	// tinggi := 15
+	// L := (alas * tinggi) / 2
+	// fmt.Println("Luas segitiga =", L)
 
-	helloWorld := "hello" + " " + "world"
-	fmt.Println(helloWorld)
+	// helloWorld := "hello" + " " + "world"
+	// fmt.Println(helloWorld)
 
+	myAge := 17
+	if dadAge := 9; dadAge < myAge {
+		fmt.Println(dadAge)
+	} else {
+		fmt.Println("I'm older")
+	}
+
+	angka := 10
+	if angka%2 == 0 {
+		fmt.Println("Angka Genap")
+	} else {
+		fmt.Println("Angka Ganjil")
+	}
 }
