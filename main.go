@@ -17,17 +17,34 @@ func main() {
 	// helloWorld := "hello" + " " + "world"
 	// fmt.Println(helloWorld)
 
-	myAge := 17
-	if dadAge := 9; dadAge < myAge {
-		fmt.Println(dadAge)
-	} else {
-		fmt.Println("I'm older")
+	// myAge := 17
+	// if dadAge := 9; dadAge < myAge {
+	// 	fmt.Println(dadAge)
+	// } else {
+	// 	fmt.Println("I'm older")
+	// }
+
+	// angka := 10
+	// if angka%2 == 0 {
+	// 	fmt.Println("Angka Genap")
+	// } else {
+	// 	fmt.Println("Angka Ganjil")
+	// }
+
+	for i := 0; i < 5; i++ {
+		fmt.Println("i ke", i)
 	}
 
-	angka := 10
-	if angka%2 == 0 {
-		fmt.Println("Angka Genap")
+	cek := 10
+	cekPrima := 0
+	for i := 1; i <= cek; i++ {
+		if cek%i == 0 {
+			cekPrima++
+		}
+	}
+	if cekPrima == 2 {
+		fmt.Println("bilangan", cek, "adalah bilangan prima")
 	} else {
-		fmt.Println("Angka Ganjil")
+		fmt.Println("bukan bilangan prima")
 	}
 }
